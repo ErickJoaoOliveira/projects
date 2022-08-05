@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body{
+    font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-box{
+    margin: 1rem;
+}
+button {
+    color: #fdfdfd;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.back {
+    background-color: rgb(225, 65, 65);
+    border: none;
+    font-size: 130%;
+    width: 13vw;
+    height: 5vh;
+}
+
+.back:hover {
+    background-color: rgba(225, 65, 65, 0.863);
+}
+
+.ntudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ntudo img {
+    padding: 3%;
+    width: 30vw;
+    height: 90vh;
+}
+
+.algumascoisas {
+    display: block;
+}
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+table{
+    
+    margin: 0 auto;
+    width: 90%;
+    background-color: #fdfdfd;
+}
+
+.cor-diferente {
+    background-color: #e6adadd0;
+    
+}
+
+td,th {
+    padding: .5rem;
+    text-align: center;
+    max-width: 40vw; 
+}
+
+p {
+    font-size: 110%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.link {
+  cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: rgb(156, 6, 6);
+    transition: .5s;
+    
+}
+h1{
+    color: rgb(225, 65, 65);
+    padding: 1rem 0 0 1rem;
+}
+
+/*----------MODALE------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /*------------------black---------------*/
+
+  .modal-black {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(179, 174, 174); /* Fallback color */
+    background-color: rgba(70, 68, 68, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content-black {
+    background-color: #464343;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+.title-modal{
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+    color: rgb(225, 65, 65);;
+}
+
+.sub-title-modal {
+    font-size: 1.3rem;
+    color: rgb(250, 50, 50);;
+}
+
+.dark-theme {
+    color: white;
+    background-color: #fefefe;
+}
+
+.white-theme {
+    color: rgb(0, 0, 0);
+}
+/*----------------Barra de rolagem--------------------*/
+
+*::-webkit-scrollbar {
+    width: 1vw;
+}
+  
+*::-webkit-scrollbar-track {
+    background: rgb(253, 241, 241);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(221, 56, 56);
+    border-radius: 20px;
+    border: 3px solid rgb(253, 241, 241);
+}

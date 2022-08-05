@@ -1,0 +1,23 @@
+{
+  "name": "selecaopersonas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "sqlite3": "^5.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

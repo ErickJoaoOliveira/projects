@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body{
+  background-color: #242424;
+  font-family: 'Questrial', sans-serif;
+}
+
+.titulo{
+  padding-top: 1rem;
+  padding-block-end: 1rem;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #fdfdff;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+
+.banner img {
+  
+  width: 28vw;
+  height: 73vh;
+}
+
+.header:hover {
+  transition: 0.8s;
+  opacity: 0.9;
+  animation: shine-gold 1s infinite;
+}
+
+@keyframes shine-gold {
+  100%{
+    box-shadow:  5px 10px 10px 5px #ffe600;
+  }
+  75%{
+    box-shadow: 5px 20px 20px 10px #ffe600;
+  }
+  50%{
+    box-shadow: 5px 15px 15px 5px #ffe600;
+  }
+  25%{
+    box-shadow: 5px 20px 20px 10px #ffe600;
+  }
+  0%{
+    box-shadow: 5px 10px 10px 5px #ffe600;
+  }
+}
+
+
+.demon:hover {
+  transition: 0.8s;
+  opacity: 0.9;
+  animation: shine-red 1s infinite;
+}
+
+@keyframes shine-red {
+  100%{
+    box-shadow:  0 10px 10px 5px #ff0000;
+  }
+  75%{
+    box-shadow: 0 20px 20px 10px #ff0000;
+  }
+  50%{
+    box-shadow: 0 15px 15px 5px #ff0000;
+  }
+  25%{
+    box-shadow: 0 20px 20px 10px #ff0000;
+  }
+  0%{
+    box-shadow: 0 10px 10px 5px #ff0000;
+  }
+}
